@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+body{
+    /*border: 2px solid red;*/
+    height: 100vh;
+}
+#nav{
+    background-color: #003049;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #003049 35%, rgba(0,212,255,1) 100%);
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 50px;
+}
+#nav>a{
+    color: #caf0f8;
+    text-decoration: none;
+    padding-left: 15px;
+}
+#welcome-section{
+    margin-top: 35px;
+    background-color:#fefae096;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #9b2226;
+    font-size: 60px;
+}
+#welcome-section>p{
+    font-size: 25px;
+    
+}
